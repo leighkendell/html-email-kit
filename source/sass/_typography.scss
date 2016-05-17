@@ -1,0 +1,77 @@
+/* Typography */
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 400;
+    margin-bottom: 15px;
+    mso-line-height-rule: exactly;
+    line-height: 150%;
+
+    @include breakpoint(small) {
+        font-weight: 400 !important;
+    }
+}
+
+h1 {
+    font-size: 38px;
+    text-transform: capitalize;
+    font-weight: 300;
+
+    @include breakpoint(small) {
+        font-size: 22px !important;
+    }
+}
+
+h2 {
+    font-size: 24px;
+
+    @include breakpoint(small) {
+        font-size: 18px !important;
+    }
+}
+
+h3 {
+    font-size: 18px;
+
+    @include breakpoint(small) {
+        font-size: 16px !important;
+    }
+}
+
+h4 {
+    font-size: 14px;
+    font-weight:500;
+}
+
+p,
+ul,
+ol,
+.text,
+.ul {
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 15px;
+    mso-line-height-rule: exactly;
+    line-height: 150%;
+
+    li {
+        list-style-position: inside;
+        margin: 0 0 5px 15px;
+    }
+}
+
+a {
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: $link-color;
+    text-decoration: underline;
+}
+
+.ul {
+    td {
+        mso-line-height-rule: exactly;
+        line-height: 150%;
+    }
+}

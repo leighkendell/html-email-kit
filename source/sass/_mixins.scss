@@ -1,0 +1,9 @@
+/* Mixins */
+// Breakpoints
+@mixin breakpoint($point) {
+    @if $point == small {
+        @media screen and (max-width: $width) {
+            @content;
+        }
+    }
+}

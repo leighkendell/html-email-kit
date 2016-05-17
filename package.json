@@ -1,0 +1,14 @@
+{
+  "name": "html-email-kit",
+  "version": "0.1.0",
+  "devDependencies": {
+    "browser-sync": "*",
+    "gulp": "*",
+    "gulp-file-include": "*",
+    "gulp-notify": "*",
+    "gulp-plumber": "*",
+    "gulp-premailer": "*",
+    "gulp-prettify": "*",
+    "gulp-sass": "*"
+  }
+}
